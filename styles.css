@@ -1,0 +1,51 @@
+body{
+    font-family: 'Cabin';
+}
+
+#table1, #table2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border: 1px;
+}
+
+#grades, #weight, #desired-grade, #final-weight{
+    font-weight: bold;
+    color: #006600;
+}
+
+#title, #finalTitle{
+    text-align: center;
+    text-shadow: 2px 2px white;
+    color: #006600;
+}
+
+#button1, #button2, #button3, #currentGrade{
+    display: block;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    color: #006600;
+}
+
+body{
+    background-color: #effbf4;
+}
+
+#gradeNeeded, #categoryTitle{
+    display: block;
+    margin: 10px auto 5px auto;
+    text-align: center;
+    color: #006600;
+}
+
+.titleColor, .inputColor{
+    color: #006600;
+}
+
+#grades0, #weight0, #desiredGrade, #finalWeight{
+    display: block;
+    margin: 10px auto 5px auto;
+    color: #006600;
+}
+

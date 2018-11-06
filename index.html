@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+</head>
+<h1 id="title">Grade Calculator</h1>
+<body>
+<table id="table1" align="center">
+    <tr>
+        <td>
+            <div id="grades">Homework Grades</div>
+            <input type="text" id="grades0" placeholder="94,87,92">
+        </td>
+        <td>
+            <div id="weight">Homework Weight</div>
+            <input type="text" id="weight0" placeholder="20">
+        </td>
+    </tr>
+</table>
+<input type="text" id="categoryTitle" placeholder="Category name...">
+<button onclick="addRow()" id="button1" class="w3-button w3-green">Add category</button>
+<button onclick="calculateCurrentGrade()" id="button2" class="w3-button w3-green">Calculate current grade</button>
+
+<div id="currentGrade"></div>
+<h1 id="finalTitle">Final Grade Calculator</h1>
+<table id="table2" align="center">
+    <tr>
+        <td>
+            <div id="desired-grade">Desired Grade</div>
+            <input type="text" id="desiredGrade" placeholder="90">
+        </td>
+        <td>
+            <div id="final-weight">Final Weight</div>
+            <input type="text" id="finalWeight" placeholder="15">
+        </td>
+    </tr>
+</table>
+<button onclick="calculateGradeNeeded()" id="button3" class="w3-button w3-green">Calculate grade needed</button>
+<div id="gradeNeeded"></div>
+
+</body>
+</html>
